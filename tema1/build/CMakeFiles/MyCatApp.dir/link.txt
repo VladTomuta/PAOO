@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MyCatApp.dir/main.cc.o -o /mnt/c/Users/tomut/Scoala/PAOO/tema1/src/build/MyCatApp  -lcat 

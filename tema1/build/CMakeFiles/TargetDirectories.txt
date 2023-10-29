@@ -1,0 +1,6 @@
+/mnt/c/Users/tomut/Scoala/PAOO/tema1/build/CMakeFiles/Main.dir
+/mnt/c/Users/tomut/Scoala/PAOO/tema1/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/tomut/Scoala/PAOO/tema1/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/tomut/Scoala/PAOO/tema1/build/lib/CMakeFiles/lib.dir
+/mnt/c/Users/tomut/Scoala/PAOO/tema1/build/lib/CMakeFiles/edit_cache.dir
+/mnt/c/Users/tomut/Scoala/PAOO/tema1/build/lib/CMakeFiles/rebuild_cache.dir
