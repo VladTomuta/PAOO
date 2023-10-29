@@ -3,14 +3,14 @@
 #include <iostream>
 
 Cat::Cat(string name, int age, string say) {
-    cout << "1";
     this->name = new char[name.length() + 1];
     strcpy(this->name, name.c_str());
-    cout << "2";
+
     this->age = age;
-    cout << "3";
+
     this->say = new char[say.length() + 1];
     strcpy(this->say, say.c_str());
+
     cout << this->name << " has been created inside the NORMAL CONSTRUCTOR!\n";
 }
 
@@ -24,6 +24,7 @@ Cat::~Cat() {
 Cat::Cat(const Cat &cat) {
     this->name = new char[strlen(cat.name) + 1];
     strcpy(name, cat.name);
+
     this->age = cat.age;
 
     this->say = new char[strlen(cat.say) + 1];
@@ -35,6 +36,7 @@ Cat::Cat(const Cat &cat) {
 Cat::Cat(Cat &&cat) {
     this->name = new char[strlen(cat.name) + 1];
     strcpy(name, cat.name);
+
     this->age = cat.age;
 
     this->say = new char[strlen(cat.say) + 1];
