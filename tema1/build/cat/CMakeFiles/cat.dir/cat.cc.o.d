@@ -1,7 +1,7 @@
-lib/CMakeFiles/lib.dir/cat.cc.o: \
- /mnt/c/Users/tomut/Scoala/PAOO/tema1/src/lib/cat.cc \
+cat/CMakeFiles/cat.dir/cat.cc.o: \
+ /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/src/cat/cat.cc \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/tomut/Scoala/PAOO/tema1/src/lib/cat.h \
+ /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/src/cat/cat.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

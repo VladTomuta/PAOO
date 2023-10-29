@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/tomut/Scoala/PAOO/tema1/src/lib
+# Install script for directory: /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/src/cat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

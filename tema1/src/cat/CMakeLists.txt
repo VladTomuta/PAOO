@@ -1,0 +1,1 @@
+add_library(cat STATIC cat.cc)

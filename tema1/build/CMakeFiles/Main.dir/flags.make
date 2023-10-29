@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/tomut/Scoala/PAOO/tema1/src/lib
+CXX_INCLUDES = -I/mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/src/cat
 
 CXX_FLAGS = 
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/tomut/Scoala/PAOO/tema1/src/main.cc" "CMakeFiles/MyCatApp.dir/main.cc.o" "gcc" "CMakeFiles/MyCatApp.dir/main.cc.o.d"
+  "/mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/src/cat/cat.cc" "cat/CMakeFiles/cat.dir/cat.cc.o" "gcc" "cat/CMakeFiles/cat.dir/cat.cc.o.d"
   )
 
 # Targets to which this target links.

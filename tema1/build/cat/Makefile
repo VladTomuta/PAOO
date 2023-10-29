@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/tomut/Scoala/PAOO/tema1/src
+CMAKE_SOURCE_DIR = /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/tomut/Scoala/PAOO/tema1/build
+CMAKE_BINARY_DIR = /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/tomut/Scoala/PAOO/tema1/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/tomut/Scoala/PAOO/tema1/build/CMakeFiles /mnt/c/Users/tomut/Scoala/PAOO/tema1/build/lib//CMakeFiles/progress.marks
-	cd /mnt/c/Users/tomut/Scoala/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/tomut/Scoala/PAOO/tema1/build/CMakeFiles 0
+	cd /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build/CMakeFiles /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build/cat//CMakeFiles/progress.marks
+	cd /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/tomut/Scoala/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cat/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,39 +103,39 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/tomut/Scoala/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/tomut/Scoala/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/tomut/Scoala/PAOO/tema1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-lib/CMakeFiles/lib.dir/rule:
-	cd /mnt/c/Users/tomut/Scoala/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/lib.dir/rule
-.PHONY : lib/CMakeFiles/lib.dir/rule
+cat/CMakeFiles/cat.dir/rule:
+	cd /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cat/CMakeFiles/cat.dir/rule
+.PHONY : cat/CMakeFiles/cat.dir/rule
 
 # Convenience name for target.
-lib: lib/CMakeFiles/lib.dir/rule
-.PHONY : lib
+cat: cat/CMakeFiles/cat.dir/rule
+.PHONY : cat
 
 # fast build rule for target.
-lib/fast:
-	cd /mnt/c/Users/tomut/Scoala/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/build
-.PHONY : lib/fast
+cat/fast:
+	cd /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f cat/CMakeFiles/cat.dir/build.make cat/CMakeFiles/cat.dir/build
+.PHONY : cat/fast
 
 cat.o: cat.cc.o
 .PHONY : cat.o
 
 # target to build an object file
 cat.cc.o:
-	cd /mnt/c/Users/tomut/Scoala/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/cat.cc.o
+	cd /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f cat/CMakeFiles/cat.dir/build.make cat/CMakeFiles/cat.dir/cat.cc.o
 .PHONY : cat.cc.o
 
 cat.i: cat.cc.i
@@ -143,7 +143,7 @@ cat.i: cat.cc.i
 
 # target to preprocess a source file
 cat.cc.i:
-	cd /mnt/c/Users/tomut/Scoala/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/cat.cc.i
+	cd /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f cat/CMakeFiles/cat.dir/build.make cat/CMakeFiles/cat.dir/cat.cc.i
 .PHONY : cat.cc.i
 
 cat.s: cat.cc.s
@@ -151,7 +151,7 @@ cat.s: cat.cc.s
 
 # target to generate assembly for a file
 cat.cc.s:
-	cd /mnt/c/Users/tomut/Scoala/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/cat.cc.s
+	cd /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build && $(MAKE) $(MAKESILENT) -f cat/CMakeFiles/cat.dir/build.make cat/CMakeFiles/cat.dir/cat.cc.s
 .PHONY : cat.cc.s
 
 # Help Target
@@ -162,7 +162,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... lib"
+	@echo "... cat"
 	@echo "... cat.o"
 	@echo "... cat.i"
 	@echo "... cat.s"
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/tomut/Scoala/PAOO/tema1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

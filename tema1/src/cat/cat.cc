@@ -15,7 +15,11 @@ Cat::Cat(string name, int age, string say) {
 }
 
 Cat::~Cat() {
-    cout << this->name << " has been DESTRUCTED\n";
+
+    if(this->name != nullptr)
+        cout << this->name << " has been DESTRUCTED!\n";
+    else
+        cout << "nullptr has been DESTRUCTED!\n";
 
     delete[] name;
     delete[] say;
@@ -42,8 +46,8 @@ Cat::Cat(Cat &&cat) {
     this->say = new char[strlen(cat.say) + 1];
     strcpy(say, cat.say);
 
-    cat.setName("Default name");
-    cat.setSay("Default say");
+    cat.name = nullptr;
+    cat.say = nullptr;
 
     cout << this->name << " has been moved inside the MOVE CONSTRUCTOR!\n";
 }

@@ -7,8 +7,8 @@ add_executable(Main main.cc)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_subdirectory(lib)
+add_subdirectory(cat)
 
-target_link_libraries(Main PUBLIC lib)
+target_link_libraries(Main PUBLIC cat)
 
-target_include_directories(Main PUBLIC "${PROJECT_SOURCE_DIR}/lib")
+target_include_directories(Main PUBLIC "${PROJECT_SOURCE_DIR}/cat")

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/tomut/Scoala/PAOO/tema1/src
+CMAKE_SOURCE_DIR = /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/tomut/Scoala/PAOO/tema1/build
+CMAKE_BINARY_DIR = /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/tomut/Scoala/PAOO/tema1/build/CMakeFiles /mnt/c/Users/tomut/Scoala/PAOO/tema1/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build/CMakeFiles /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/tomut/Scoala/PAOO/tema1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ Main/fast:
 .PHONY : Main/fast
 
 #=============================================================================
-# Target rules for targets named lib
+# Target rules for targets named cat
 
 # Build rule for target.
-lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib
-.PHONY : lib
+cat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cat
+.PHONY : cat
 
 # fast build rule for target.
-lib/fast:
-	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/build
-.PHONY : lib/fast
+cat/fast:
+	$(MAKE) $(MAKESILENT) -f cat/CMakeFiles/cat.dir/build.make cat/CMakeFiles/cat.dir/build
+.PHONY : cat/fast
 
 main.o: main.cc.o
 .PHONY : main.o
@@ -175,7 +175,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Main"
-	@echo "... lib"
+	@echo "... cat"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

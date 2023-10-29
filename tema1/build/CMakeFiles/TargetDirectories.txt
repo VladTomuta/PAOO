@@ -1,6 +1,6 @@
-/mnt/c/Users/tomut/Scoala/PAOO/tema1/build/CMakeFiles/Main.dir
-/mnt/c/Users/tomut/Scoala/PAOO/tema1/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/tomut/Scoala/PAOO/tema1/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/tomut/Scoala/PAOO/tema1/build/lib/CMakeFiles/lib.dir
-/mnt/c/Users/tomut/Scoala/PAOO/tema1/build/lib/CMakeFiles/edit_cache.dir
-/mnt/c/Users/tomut/Scoala/PAOO/tema1/build/lib/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build/CMakeFiles/Main.dir
+/mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build/cat/CMakeFiles/cat.dir
+/mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build/cat/CMakeFiles/edit_cache.dir
+/mnt/c/Users/tomut/Scoala/PAOO/PAOO/tema1/build/cat/CMakeFiles/rebuild_cache.dir
