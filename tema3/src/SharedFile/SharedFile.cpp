@@ -6,12 +6,12 @@ SharedFile::SharedFile(std::string filename, std::shared_ptr<Semaphore> semaphor
     this->semaphore = semaphore;
 }
 
-void SharedFile::writeToFile(int id) {
+void SharedFile::writeToFile(int id, Message message) {
     semaphore->wait();
 
     std::unique_lock<std::mutex> lock(mutex);
 
-    std::string data = "Thread " + std::to_string(id) + ": Hello this is the thread with id " + std::to_string(id);
+    std::string data = "Thread " + std::to_string(id) + ":" + message.getContent();
     fileStream.open(filename, std::ios::app);
     fileStream << data << std::endl;
     fileStream.close();

@@ -3,11 +3,12 @@
 #include <fstream>
 #include <memory>
 #include "Semaphore.hpp"
+#include "Message.hpp"
 
 class SharedFile {
     public:
         SharedFile(std::string filename, std::shared_ptr<Semaphore> semaphore);
-        void writeToFile(int id);
+        void writeToFile(int id, Message message);
         void readFromFile(int id);
         void clearFileContent();
     private:

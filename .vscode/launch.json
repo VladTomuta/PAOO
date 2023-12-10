@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/tomut/Scoala/PAOO/PAOO",
-      "program": "c:/Users/tomut/Scoala/PAOO/PAOO/build/Debug/outDebug",
+      "cwd": "c:/Users/tomut/Scoala/PAOO/ceva/PAOO/tema3/src",
+      "program": "c:/Users/tomut/Scoala/PAOO/ceva/PAOO/tema3/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -1,0 +1,1 @@
+add_library(Message STATIC Message.cpp)

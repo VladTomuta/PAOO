@@ -9,9 +9,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_subdirectory(Semaphore)
 add_subdirectory(SharedFile)
+add_subdirectory(Message)
 
 target_link_libraries(Main PUBLIC Semaphore)
 target_link_libraries(Main PUBLIC SharedFile)
+target_link_libraries(Main PUBLIC Message)
 
 target_include_directories(Main PUBLIC "${PROJECT_SOURCE_DIR}/Semaphore")
 target_include_directories(Main PUBLIC "${PROJECT_SOURCE_DIR}/SharedFile")
+target_include_directories(Main PUBLIC "${PROJECT_SOURCE_DIR}/Message")
